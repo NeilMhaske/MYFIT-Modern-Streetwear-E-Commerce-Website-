@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">MYFIT</div>
+  <ul class="nav-links">
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="cart.html">Cart</a></li>
+  </ul>
+</nav>
+
+<section class="checkout-wrapper">
+
+  <div class="checkout-card">
+    <h2>Shipping Details</h2>
+
+    <input type="text" placeholder="Full Name">
+    <input type="text" placeholder="Phone Number">
+    <input type="text" placeholder="Address">
+    <input type="text" placeholder="City">
+    <input type="text" placeholder="Pincode">
+
+    <button class="place-order">Place Order</button>
+  </div>
+
+<div class="checkout-summary">
+  <h3>Order Summary</h3>
+
+  <div class="summary">
+    <p>Subtotal: ₹<span id="subtotal"></span></p>
+    <p>GST (18%): ₹<span id="gst"></span></p>
+    <p>Total: ₹<span id="total"></span></p>
+  </div>
+
+  
+</div>
+
+
+</section>
+
+
+<script src="checkout.js"></script>
+</body>
+</html>

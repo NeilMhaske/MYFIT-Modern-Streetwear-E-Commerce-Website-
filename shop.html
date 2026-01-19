@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">MYFIT</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cart.html">Cart</a></li>
+  </ul>
+</nav>
+
+<section class="section featured-single">
+  <h2>Featured Pick</h2>
+
+  <div class="featured-one" id="featuredOne">
+
+    <div class="product-card active" 
+         data-name="Black Hoodie"
+         data-price="1999"
+         data-image="images/hoodie1.jpg">
+      <img src="images/hoodie1.jpg">
+      <h3>Black Hoodie</h3>
+      <p>₹1999</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card"
+         data-name="Oversized Shirt"
+         data-price="1299"
+         data-image="images/shirt1.jpg">
+      <img src="images/shirt1.jpg">
+      <h3>Oversized Shirt</h3>
+      <p>₹1299</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product-card"
+         data-name="Denim Jacket"
+         data-price="2799"
+         data-image="images/jacket1.jpg">
+      <img src="images/jacket1.jpg">
+      <h3>Denim Jacket</h3>
+      <p>₹2799</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="gender-upgrade">
+
+  <!-- MEN -->
+  <div class="gender-box men" onclick="location.href='men.html'">
+    <div class="gender-slideshow men-slides">
+      <img src="images/men slideshow1.jpg" class="active">
+      <img src="images/men slideshow2.jpg">
+      <img src="images/menslideshow3.jpg">
+    </div>
+
+    <div class="gender-bg"></div>
+
+    <div class="gender-content">
+      <span>Shop For</span>
+      <h2>Men</h2>
+      <p>Hoodies • Shirts • Jackets</p>
+      <div class="gender-cta">Explore</div>
+    </div>
+  </div>
+
+  <!-- WOMEN -->
+  <div class="gender-box women" onclick="location.href='women.html'">
+    <div class="gender-slideshow women-slides">
+  <img src="images/women slideshow1.jpg" class="active">
+  <img src="images/women slideshow2.jpg">
+  <img src="images/women slideshow3.jpg">
+</div>
+
+    <div class="gender-bg"></div>
+
+    <div class="gender-content">
+      <span>Shop For</span>
+      <h2>Women</h2>
+      <p>Dresses • Hoodies • Jeans</p>
+      <div class="gender-cta">Explore</div>
+    </div>
+  </div>
+
+</section>
+
+
+<script src="shop.js"></script>
+</body>
+</html>
